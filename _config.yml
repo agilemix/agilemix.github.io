@@ -18,3 +18,5 @@ collections:
     output: true
   presentations:
     output: true
+  products:
+    output: true
