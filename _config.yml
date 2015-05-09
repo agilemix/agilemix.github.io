@@ -16,6 +16,7 @@ markdown: kramdown
 collections:
   articles:
     output: true
+    name: articles
   presentations:
     output: true
   products:

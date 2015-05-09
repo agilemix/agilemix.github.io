@@ -59,34 +59,23 @@
 						<div class="container">
 							<a class="navbar-brand" href="/"><img src="assets/images/logo.svg" class="logo" alt=""></a>
 
-<!--
+<!-- https://github.com/jekyll/jekyll/issues/2346 -->
 							<ul class="nav navbar-nav">
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle js-activated">Articles</a>
+								{% for collection in site.collections %}
+									{% if collection[1].docs[1] %}
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle js-activated">{{ collection[0] }}</a>
 
-									<ul class="dropdown-menu">
-										<li><a href="articles/principles-over-practices/">Principles over Practices</a></li>
-									</ul>
-								</li>
+											<ul class="dropdown-menu">
+												{% for document in collection[1].docs %}
+													<li><a href="{{ document.url }}">{{ document.title }}</a></li>
+												{% endfor %}
+											</ul>
+										</li>
+									{% endif %}
+								{% endfor %}
 
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle js-activated">Presentations</a>
-
-									<ul class="dropdown-menu">
-										<li><a href="#">Agile Reset</a></li>
-										<li><a href="#">Getting Stuff Done</a></li>
-									</ul>
-								</li>
-
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle js-activated">Products</a>
-
-									<ul class="dropdown-menu">
-										<li><a href="/products/10at10to10/">10at10to10</a></li>
-										<li><a href="/products/appflux/">appFlux</a></li>
-									</ul>
-								</li>
-
+<!--
 								<li>
 									<a href="/contact/">Contact</a>
 								</li>
@@ -101,8 +90,8 @@
 										</form>
 									</div>
 								</li>
-							</ul>
 -->
+							</ul>
 						</div>
 					</div>
 				</div>
