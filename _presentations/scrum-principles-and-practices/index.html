@@ -1,3 +1,7 @@
+---
+title: "Scrum: Principles and Practices"
+sortOrder: 01
+---
 <!doctype html>
 <html lang="en">
 	<head>
@@ -36,6 +40,44 @@
 	<body>
 		<div class="reveal">
 <!--
+			<header style="position: absolute;
+				top: 50px;
+				left: 100px;
+				z-index:500;
+				font-size:100px;
+				padding: 20px;
+				background-color: rgba(0,0,0,0.5)">
+			</header>
+-->
+
+			<header class="top" style="position: absolute;
+				top: 50px;
+				align: center;
+				z-index:500;">
+			</header>
+
+			<header class="left" style="position: absolute;
+				top: 50px;
+				left: 50px;
+				z-index:500;">
+			</header>
+
+			<header class="right" style="position: absolute;
+				top: 50px;
+				right: 10px;
+				z-index:500;">
+			</header>
+
+			<footer class="credit" style="position: absolute;
+				bottom: 50px;
+				left: 50px;
+				font-size: 20px;
+				background-color: #000;
+				padding: 10px;
+				z-index:500;">
+			</footer>
+
+<!--
 			<div id="myLogo" style="background: url(images/feedback.gif);
 				position: absolute;
 				bottom: 50px;
@@ -46,14 +88,6 @@
 -->
 
 			<style>
-				p.credit {
-					position: absolute;
-					bottom: 0px;
-					padding:5px;
-					background: rgba(54, 25, 25, 0.75);
-					font-size: 15px;
-				}
-
 				h1.top {
 					position: absolute;
 					top: 0px;
@@ -80,39 +114,36 @@
 					</ul>
 				</section>
 
-				<section data-background="images/getting-to-know-you.jpg" class="width:150%;">
-					<h1 class="full-width">Getting to Know You&hellip;</h1>
+				{% include presentations/slides/getting-to-know-you.html %}
 
-					<p class="credit">The King and I - 20th Century Fox (1956)</p>
+				<section data-state="head-left credit-left" data-background="images/thinker.jpg">
+					<style>
+						.head-left header.left:after {
+							content: "What Does Agile Mean?";
+						}
 
-					<div class="fragment" style="background: rgba(54, 25, 25, 0.75);padding:50px;">
-						<ul>
-							<li>Originally started in architecture and engineering</li>
-							<li>Got into computing via structural analysis</li>
-							<li>Moved in IT management</li>
-							<li>Been a freelance web developer since 2001</li>
-							<li>MSc Internet Systems Development</li>
-							<li>Certified Scrum Master</li>
-							<li>Available for weddings, christenings, Bar Mitzvahs and other Agile opportunities</li>
-						</ul>
-					</div>
+						.credit-left footer.credit:after {
+							content: "Joe deSousa - https://flic.kr/p/a6gTRj";
+						}
+					</style>
 
-				</section>
-
-				<section data-background="images/thinker.jpg">
 					<h1 class="full-width">What Does Agile Mean?</h1>
 
-					<ul>
+					<ul style="float:left;">
 						<li>A philosophy</li>
 						<li>An attitude</li>
 						<li>A frame of mind</li>
 					</ul>
-
-					<p class="credit">Joe deSousa - https://flic.kr/p/a6gTRj</p>
 				</section>
 
-				<section data-background="images/umbrella.jpg">
-					<h1>Umbrella Term</h1>
+				<section data-state="credit-left" data-background="images/umbrella.jpg">
+					<style>
+						.credit-left footer.credit:after {
+							content: "Umbrella street in Belgrade, Serbia, Matej Duzel";
+						}
+					</style>
+
+					<h1 style="background-color:#000">Umbrella Term</h1>
 
 					<ul>
 						<li>Kanban</li>
@@ -122,11 +153,9 @@
 						<li>Feature Driven Development (FDD)</li>
 						<li>Scrum</li>
 					</ul>
-
-					<p class="credit">Umbrella street in Belgrade, Serbia, Matej Duzel</p>
 				</section>
 
-				<section data-background="images/rugby.jpg">
+				<section data-background="images/rugby.jpg" data-background-size="900px">
 					<h1>History of Scrum?</h1>
 
 					<ul>
@@ -137,7 +166,7 @@
 				</section>
 
 				<section>
-					<h1>Scrum moves on – 1995&hellip;</h1>
+					<h1 class="full-width">Scrum moves on – 1995&hellip;</h1>
 
 					<ul>
 						<li>&ldquo;A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value&rdquo;</li>
@@ -161,7 +190,7 @@
 				</section>
 
 				<section data-background="images/pillars.jpg">
-					<h1>Three Pillars of Scrum</h1>
+					<h1 class="full-width">Three Pillars of Scrum</h1>
 
 					<ul>
 						<li>Transparency</li>
@@ -258,7 +287,7 @@
 				</section>
 
 				<section data-background="images/not-the-boss.jpg">
-					<h1>You’re not the Boss of me now!</h1>
+					<h1 class="full-width">You’re not the Boss of me now!</h1>
 
 					<p class="credit">Malcolm in the Middle - Fox Broadcasting Company </p>
 				</section>
@@ -402,7 +431,7 @@
 				</section>
 
 				<section data-background="images/sprint-retrospective.jpg">
-					<h1>Sprint Retrospective</h1>
+					<h1 class="full-width">Sprint Retrospective</h1>
 
 					<ul>
 						<li>&ldquo;Wot went right?&rdquo;</li>
