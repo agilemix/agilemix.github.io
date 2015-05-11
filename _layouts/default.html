@@ -67,7 +67,9 @@
 											<a href="#" class="dropdown-toggle js-activated">{{ collection[0] }}</a>
 
 											<ul class="dropdown-menu">
-												{% for document in collection[1].docs %}
+												{% assign documents = collection[1].docs | sort:"sortOrder"  %}
+
+												{% for document in documents %}
 													<li><a href="{{ document.url }}">{{ document.title }}</a></li>
 												{% endfor %}
 											</ul>
