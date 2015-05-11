@@ -3,6 +3,7 @@ title: "Scrum: Principles and Practices"
 sortOrder: 01
 ---
 <!doctype html>
+
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -19,6 +20,22 @@ sortOrder: 01
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<style>
+			h1.top {
+				position: absolute;
+				top: 0px;
+			}
+
+			h1.full-width {
+				margin: 0 -200px;
+			}
+
+			.white-on-black {
+				background-color: rgba(33, 33, 33, 0.5);
+				color: #fff;
+			}
+		</style>
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -39,64 +56,28 @@ sortOrder: 01
 
 	<body>
 		<div class="reveal">
-<!--
-			<header style="position: absolute;
-				top: 50px;
-				left: 100px;
-				z-index:500;
-				font-size:100px;
-				padding: 20px;
-				background-color: rgba(0,0,0,0.5)">
-			</header>
--->
-
 			<header class="top" style="position: absolute;
 				top: 50px;
 				align: center;
 				z-index:500;">
 			</header>
 
-			<header class="left" style="position: absolute;
-				top: 50px;
-				left: 50px;
+			<h1 class="left" style="position: absolute;
+				background-color: rgba(33, 33, 33, 0.5);
+				padding: 20px;
+				top: 20px;
+				left: 20px;
 				z-index:500;">
-			</header>
-
-			<header class="right" style="position: absolute;
-				top: 50px;
-				right: 10px;
-				z-index:500;">
-			</header>
+			</h1>
 
 			<footer class="credit" style="position: absolute;
-				bottom: 50px;
-				left: 50px;
-				font-size: 20px;
-				background-color: #000;
+				background-color: rgba(33, 33, 33, 0.5);
 				padding: 10px;
+				bottom: 20px;
+				left: 20px;
+				font-size: 20px;
 				z-index:500;">
 			</footer>
-
-<!--
-			<div id="myLogo" style="background: url(images/feedback.gif);
-				position: absolute;
-				bottom: 50px;
-				left: 50px;
-				width: 100px;
-				height: 100px;">
-			</div>
--->
-
-			<style>
-				h1.top {
-					position: absolute;
-					top: 0px;
-				}
-
-				h1.full-width {
-					margin: 0 -200px;
-				}
-			</style>
 
 			<div class="slides">
 				<section>
@@ -114,372 +95,98 @@ sortOrder: 01
 					</ul>
 				</section>
 
-				{% include presentations/slides/getting-to-know-you.html %}
+				{% assign slide = 'getting-to-know-you' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-				<section data-state="head-left credit-left" data-background="images/thinker.jpg">
-					<style>
-						.head-left header.left:after {
-							content: "What Does Agile Mean?";
-						}
+				{% assign slide = 'umbrella-term' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-						.credit-left footer.credit:after {
-							content: "Joe deSousa - https://flic.kr/p/a6gTRj";
-						}
-					</style>
+				{% assign slide = 'what-does-agile-mean' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<h1 class="full-width">What Does Agile Mean?</h1>
+				{% assign slide = 'history-of-scrum' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<ul style="float:left;">
-						<li>A philosophy</li>
-						<li>An attitude</li>
-						<li>A frame of mind</li>
-					</ul>
-				</section>
-
-				<section data-state="credit-left" data-background="images/umbrella.jpg">
-					<style>
-						.credit-left footer.credit:after {
-							content: "Umbrella street in Belgrade, Serbia, Matej Duzel";
-						}
-					</style>
-
-					<h1 style="background-color:#000">Umbrella Term</h1>
-
-					<ul>
-						<li>Kanban</li>
-						<li>DSDM</li>
-						<li>Lean</li>
-						<li>XP</li>
-						<li>Feature Driven Development (FDD)</li>
-						<li>Scrum</li>
-					</ul>
-				</section>
-
-				<section data-background="images/rugby.jpg" data-background-size="900px">
-					<h1>History of Scrum?</h1>
-
-					<ul>
-						<li>Proposed in 1986 by Hirotaka Takeuchi and Ikujiro Nonaka</li>
-						<li>&ldquo;a flexible, holistic product development strategy where a development team works as a unit to reach a common goal&rdquo;</li>
-						<li>A framework that supports the Agile philosophy</li>
-					</ul>
-				</section>
-
-				<section>
-					<h1 class="full-width">Scrum moves on – 1995&hellip;</h1>
-
-					<ul>
-						<li>&ldquo;A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value&rdquo;</li>
-						<li>Call projects &ldquo;Products&rdquo; to signify we will deliver a tangible benefit - value</li>
-						<li>Empirical approach to getting things done</li>
-					</ul>
-				</section>
+				{% assign slide = 'scrum-moves-on' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
 				<section>
 					<h1>Principles</h1>
 				</section>
 
-				<section>
-					<h1>ScrumGuides.org</h1>
+				{% assign slide = 'scrumguides' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<ul>
-						<li>&ldquo;A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value&rdquo;</li>
-						<li>Call projects &ldquo;Products&rdquo; to signify we will deliver a tangible benefit - value</li>
-						<li>Empirical approach to getting things done</li>
-					</ul>
-				</section>
+				{% assign slide = 'three-pillars-of-scrum' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-				<section data-background="images/pillars.jpg">
-					<h1 class="full-width">Three Pillars of Scrum</h1>
+				{% assign slide = 'scrum-practices' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<ul>
-						<li>Transparency</li>
-						<li>Inspection</li>
-						<li>Adaptation</li>
-					</ul>
-				</section>
+				{% assign slide = 'roles' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-				<section data-background="images/scrum.jpg">
-					<h1>Scrum Practices</h1>
+				{% assign slide = 'product-owner' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<ul>
-						<li>Roles</li>
-						<li>Event</li>
-						<li>Artefacts</li>
-					</ul>
-				</section>
+				<section data-background="../images/steve-jobs.jpg"></section>
 
-				<section data-background="images/lego-team.jpg">
-					<h1>Roles</h1>
+				{% assign slide = 'development-team' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<ul>
-						<li>Product Owner</li>
-						<li>Development Team</li>
-						<li>Scrum Master</li>
-					</ul>
-				</section>
+				{% assign slide = 'scrummaster' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-				<section>
-					<h1>Product Owner</h1>
+				{% assign slide = 'not-the-boss' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<h2>This is the most important role</h2>
+				{% assign slide = 'scrum-team' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<ul style="float:left;width:50%;">
-						<li>Represents the Customer</li>
-						<li>Holds the Product Vision</li>
-					</ul>
-
-					<ul style="float:left;width:50%;">
-						<li>Domain Expert</li>
-						<li>Has organisational respect to drive through vision</li>
-						<li>Decides the priorities</li>
-						<li>Works with the Dev Team</li>
-						<li>Provides detailed insight </li>
-						<li>Owns the User Stories</li>
-						<li>Owns the Product Backlog</li>
-					</ul>
-
-					<img src="images/product-owner.jpg" alt="">
-				</section>
-
-				<section data-background="images/steve-jobs.jpg">
-				</section>
-
-				<section>
-					<h1>Development  Team</h1>
-
-					<h2>This is the most important role</h2>
-
-					<ul style="float:left;width:50%;">
-						<li>Do the work</li>
-						<li>5 – 9 members</li>
-						<li>Works with the Product Owner</li>
-						<li>Estimates the User Stories</li>
-						<li>Decide how things are done</li>
-						<li>Owns the Sprint Backlog</li>
-						<li>Commit to deliver regularly </li>
-						<li>Cross functional self-organising professionals</li>
-					</ul>
-
-					<div style="float:right;width:45%;">
-						<img src="images/development-team.jpg" alt="">
-					</div>
-				</section>
-
-				<section>
-					<h1>Scrum Master</h1>
-
-					<h2>This is the most important role</h2>
-
-					<ul style="float:left;width:50%;">
-						<li>Maintains the Scrum Values</li>
-						<li>Works for the Scrum Team</li>
-						<li>Servant – Leader</li>
-						<li>Facilitates the Scrum Process</li>
-						<li>Supports Product Owner</li>
-						<li>Resolves impediments </li>
-						<li>Protects the Team from interference</li>
-					</ul>
-
-					<div style="float:right;width:45%;">
-						<img src="images/scrummaster.jpg" alt="">
-					</div>
-				</section>
-
-				<section data-background="images/not-the-boss.jpg">
-					<h1 class="full-width">You’re not the Boss of me now!</h1>
-
-					<p class="credit">Malcolm in the Middle - Fox Broadcasting Company </p>
-				</section>
-
-				<section data-background="images/scrum-team.jpg">
-					<h1>Scrum Team</h1>
-
-					<p class="credit">Glenbrook South Basketball Team (2011) https://flic.kr/p/aWf8jR</p>
-				</section>
-
-				<section data-background="images/what-are-you-looking-at.jpg">
+				<section data-background="../images/what-are-you-looking-at.jpg">
 					<h1>So what are you?</h1>
 				</section>
 
-				<section data-background="images/tea-ceremony.jpg">
-					<h1>Events</h1>
+				{% assign slide = 'events' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<ul>
-						<li>Discovery Phase</li>
-						<li>Sprint Planning</li>
-						<li>Sprints</li>
-						<li>Daily Standup</li>
-						<li>Product Backlog Grooming</li>
-						<li>Sprint Review</li>
-						<li>Sprint Retrospective</li>
-					</ul>
+				{% assign slide = 'discovery-phase' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<p class="credit">jpellgen  - Tea Ceremony at Kenroku-en - https://flic.kr/p/FfD3W</p>
-				</section>
+				{% assign slide = 'sprint-planning' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-				<section data-background="images/discovery.jpg">
-					<h1>Discovery Phase</h1>
+				{% assign slide = 'sprints' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<p>Sprint Zero</p>
+				{% assign slide = 'daily-standup' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<ul>
-						<li>Establish Product Vision – Product Owner</li>
-						<li>Produce Definition of &ldquo;Done&rdquo;– Development Team</li>
-						<li>User Story Mapping– Everyone</li>
-						<li>Write User Stories– Everyone (PO owns them)</li>
-						<li>Estimate Stories– Development Team</li>
-						<li>Product Backlog items– Product Owner</li>
-					</ul>
+				{% assign slide = 'backlog-grooming' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<ul>
-						<li>Not time-boxed</li>
-						<li>Has output but not shippable</li>
-						<li>Scrum Team members come and go</li>
-					</ul>
-				</section>
+				{% assign slide = 'sprint-review' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-				<section data-background="images/planning.jpg">
-					<h1>Sprint Planning</h1>
+				{% assign slide = 'sprint-retrospective' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<ul>
-						<li>Review prioritised Product Backlog</li>
-						<li>Get missing detail from Product Owner</li>
-						<li>Understand Acceptance Criteria </li>
-						<li>Define Sprint Backlog</li>
-						<li>Commit to deliver in Sprint</li>
-						<li>1 hour per Sprint week</li>
-					</ul>
-
-					<p class="credit">Sarah Ross &ldquo;A plan implies an architect&rdquo; - https://flic.kr/p/7BLEJA</p>
-				</section>
-
-				<section data-background="images/escher.jpg">
-					<h1>Sprints</h1>
-
-					<ul>
-						<li>Iterations of work</li>
-						<li>Time boxed</li>
-						<li>Between 1 - 4 weeks</li>
-						<li>Always delivers</li>
-					</ul>
-				</section>
-
-				<section data-background="images/daily-standup.jpg">
-					<h1>Daily Standup</h1>
-
-					<ul>
-						<li>Every day!</li>
-						<li>Everybody!</li>
-						<li>Scrum Team
-							<ul>
-								<li>Product Owner</li>
-								<li>Development Team</li>
-								<li>ScrumMaster</li>
-							</ul>
-						</li>
-						<li>15 minutes</li>
-						<li>Catch up on how everyone’s doing
-							<ul>
-								<li>&ldquo;What I did last time&rdquo;</li>
-								<li>&ldquo;What I’ll do this time&rdquo;</li>
-								<li>&ldquo;What’s stopping me&rdquo;</li>
-							</ul>
-						</li>
-					</ul>
-				</section>
-
-				<section data-background="images/grooming.jpg">
-					<h1>Backlog Grooming</h1>
-
-					<p>Maybe we should call that refinement?</p>
-
-					<ul>
-						<li>Product Owner
-							<ul>
-								<li>Add more Stories</li>
-								<li>Reorder Backlog</li>
-								<li>Add more detail</li>
-							</ul>
-						</li>
-						<li>Development Team
-							<ul>
-								<li>Add more Stories</li>
-								<li>Ask questions</li>
-								<li>Re–guesstimate</li>
-							</ul>
-						</li>
-						<li>ScrumMaster
-							<ul>
-								<li>Advises on User Story content</li>
-							</ul>
-						</li>
-					</ul>
-
-					<p class="credit">Anjan Chatterjee &ldquo;grooming&rdquo; https://flic.kr/p/3dihZ4</p>
-				</section>
-
-				<section data-background="images/sprint-review.jpg">
-					<h1>Sprint Review</h1>
-
-					<ul>
-						<li>Development Team &ldquo;show and tell&rdquo;</li>
-						<li>Audience – Product Owner and Stakeholders</li>
-						<li>Demonstrate shippable business value</li>
-						<li>Get agreement to deploy to Production</li>
-					</ul>
-				</section>
-
-				<section data-background="images/sprint-retrospective.jpg">
-					<h1 class="full-width">Sprint Retrospective</h1>
-
-					<ul>
-						<li>&ldquo;Wot went right?&rdquo;</li>
-						<li>&ldquo;Wot went wrong?&rdquo;</li>
-						<li>&ldquo;Wot can we do better?&rdquo;</li>
-					</ul>
-				</section>
-
-				<section data-background="images/scrum-lifecycle.jpg">
-					<h1>Sprint Lifecycle</h1>
-				</section>
+				{% assign slide = 'sprint-lifecycle' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
 				<section>
 					<h1>Putting it all into practice</h1>
-
-					<p>Sunglasses</p>
 				</section>
 
 				<section data-background-iframe="https://www.youtube.com/embed/szr0ezLyQHY?rel=0&vq=hd720&modestbranding=1">
-				</section>
-				<!-- section>h1+ul>li*3 -->
-
-				<section>
-					<h1>Feedback</h1>
-
-					<div style="float:left;">
-						<p align="left">Questions,</p>
-						<p align="left">Feedback,</p>
-						<p align="left">Comments?</p>
-					</div>
-
-					<div class="fragment fade-in">
-						<img src="images/feedback.gif" alt="" style="float:right;" width="710px">
-
-						<p class="credit">Karl Horton - https://flic.kr/p/3UaCt1</p>
-					</div>
+					<h1>Putting it all into practice</h1>
 				</section>
 
-				<section>
-					<h1>Contact</h1>
+				{% assign slide = 'feedback' %}
+				{% include presentations/slides/{{ slide }}.html %}
 
-					<ul>
-						<li>agilemix.com/presentations/</li>
-						<li>richard@agilemix.com</li>
-						<li>@agilemix</li>
-						<li>+44 (0)7717 846090</li>
-					</ul>
-				</section>
+				{% assign slide = 'contact' %}
+				{% include presentations/slides/{{ slide }}.html %}
 			</div>
 		</div>
 
