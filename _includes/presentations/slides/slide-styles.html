@@ -4,7 +4,8 @@
 		content: '{{ slide-title }}';
 	}
 
-	.slide-credit-{{ slide }} footer.credit:after {
+	.slide-credit-{{ slide }} div.credit:after {
+		{% if slide-credit != '' %}padding: 50px;{% endif %}
 		content: '{{ slide-credit }}';
 	}
 </style>
