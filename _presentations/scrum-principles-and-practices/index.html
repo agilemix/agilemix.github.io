@@ -95,16 +95,11 @@ sortOrder: 01
 					<h1>Scrum: Principles and Practices</h1>
 				</section>
 
-				<section>
-					<h1 class="top">Agenda</h1>
+				{% assign slide = 'agenda' %}
+				{% assign slide-title = 'Agenda' %}
+				{% assign slide-credit = '' %}
 
-					<ul>
-						<li class="fragment">What is Agile?</li>
-						<li class="fragment">History of Scrum</li>
-						<li class="fragment">Principles</li>
-						<li class="fragment">Practices</li>
-					</ul>
-				</section>
+				{% include presentations/scrum-principles-and-practices/agenda.html %}
 
 				{% assign slide = 'getting-to-know-you' %}
 				{% assign slide-title = 'Getting to Know You...' %}
@@ -186,7 +181,7 @@ sortOrder: 01
 
 				{% assign slide = 'not-the-boss' %}
 				{% assign slide-title = 'You’re not the Boss of me now!' %}
-				{% assign slide-credit = '' %}
+				{% assign slide-credit = 'Malcolm in the Middle -  Fox Broadcasting Company' %}
 
 				{% include presentations/slides/{{ slide }}.html %}
 
@@ -244,7 +239,7 @@ sortOrder: 01
 
 				{% assign slide = 'sprint-retrospective' %}
 				{% assign slide-title = 'Sprint Retrospective' %}
-				{% assign slide-credit = 'Lichtenstien' %}
+				{% assign slide-credit = 'Roy Lichtenstien "Oh, Jeff... I Love You, Too... But..." (1964)' %}
 
 				{% include presentations/slides/{{ slide }}.html %}
 
