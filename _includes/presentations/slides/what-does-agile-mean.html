@@ -1,15 +1,5 @@
-<section data-state="header-{{ slide }} credit-{{ slide }}" data-background="../images/thinker.jpg">
-	<style>
-		.header-{{ slide }} h1.left:after {
-			content: "What Does Agile Mean?";
-		}
-
-		.credit-{{ slide }} footer.credit:after {
-			content: "Joe deSousa - https://flic.kr/p/a6gTRj";
-		}
-	</style>
-
-	<!-- <h1 class="full-width">What Does Agile Mean?</h1> -->
+<section data-state="slide-title-{{ slide }} slide-credit-{{ slide }}" data-background="../images/thinker.jpg">
+	{% include presentations/slides/slide-styles.html %}
 
 	<ul style="float:left;">
 		<li>A philosophy</li>

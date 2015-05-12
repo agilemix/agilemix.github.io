@@ -1,13 +1,6 @@
-<section data-state="header-{{ slide }} credit-{{ slide }}" data-background="../images/escher.jpg">
-	<style>
-		.header-{{ slide }} h1.left:after {
-			content: 'Sprints';
-		}
+<section data-state="slide-title-{{ slide }} slide-credit-{{ slide }}" data-background="../images/escher.jpg">
+	{% include presentations/slides/slide-styles.html %}
 
-		.credit-{{ slide }} footer.credit:after {
-			content: 'MC Escher';
-		}
-	</style>
 
 	<div class="white-on-black" style="width:50%;text-align:left;">
 		<ul>

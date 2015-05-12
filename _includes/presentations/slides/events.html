@@ -1,13 +1,5 @@
-<section data-state="header-{{ slide }} credit-{{ slide }}" data-background="../images/tea-ceremony.jpg">
-	<style>
-		.header-{{ slide }} h1.left:after {
-			content: 'Events';
-		}
-
-		.credit-{{ slide }} footer.credit:after {
-			content: 'jpellgen  - Tea Ceremony at Kenroku-en - https://flic.kr/p/FfD3W';
-		}
-	</style>
+<section data-state="slide-title-{{ slide }} slide-credit-{{ slide }}" data-background="../images/tea-ceremony.jpg">
+	{% include presentations/slides/slide-styles.html %}
 
 	<div class="white-on-black" style="width:50%;text-align:left;">
 		<ul>

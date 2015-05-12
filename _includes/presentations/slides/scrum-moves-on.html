@@ -1,13 +1,5 @@
-<section data-state="header-{{ slide }} credit-{{ slide }}">
-	<style>
-		.header-{{ slide }} h1.left:after {
-			content: 'Scrum moves on – 1995';
-		}
-
-		.credit-{{ slide }} footer.credit:after {
-			content: '';
-		}
-	</style>
+<section data-state="slide-title-{{ slide }} slide-credit-{{ slide }}">
+	{% include presentations/slides/slide-styles.html %}
 
 	<ul>
 		<li>&ldquo;A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value&rdquo;</li>

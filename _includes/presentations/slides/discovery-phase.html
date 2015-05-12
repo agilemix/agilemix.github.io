@@ -1,13 +1,5 @@
-<section data-state="header-{{ slide }} credit-{{ slide }}" data-background="../images/discovery.jpg">
-	<style>
-		.header-{{ slide }} h1.left:after {
-			content: 'Discovery Phase';
-		}
-
-		.credit-{{ slide }} footer.credit:after {
-			content: '';
-		}
-	</style>
+<section data-state="slide-title-{{ slide }} slide-credit-{{ slide }}" data-background="../images/discovery.jpg">
+	{% include presentations/slides/slide-styles.html %}
 
 	<p style="float:right;">Sprint Zero</p>
 

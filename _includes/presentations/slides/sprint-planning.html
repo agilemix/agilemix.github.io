@@ -1,13 +1,5 @@
-<section data-state="header-{{ slide }} credit-{{ slide }}" data-background="../images/planning.jpg">
-	<style>
-		.header-{{ slide }} h1.left:after {
-			content: 'Sprint Planning';
-		}
-
-		.credit-{{ slide }} footer.credit:after {
-			content: 'Sarah Ross "A plan implies an architect" - https://flic.kr/p/7BLEJA';
-		}
-	</style>
+<section data-state="slide-title-{{ slide }} slide-credit-{{ slide }}" data-background="../images/planning.jpg">
+	{% include presentations/slides/slide-styles.html %}
 
 	<ul style="color:#000;float:left;">
 		<li>Review prioritised Product Backlog</li>

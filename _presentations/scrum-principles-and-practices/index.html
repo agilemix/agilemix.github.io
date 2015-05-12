@@ -35,6 +35,16 @@ sortOrder: 01
 				background-color: rgba(33, 33, 33, 0.5);
 				color: #fff;
 			}
+
+			.slide-title {
+				background-color: rgba(33, 33, 33, 0.5);
+				padding: 20px;
+				top: 20px;
+			}
+
+			.test {
+				background-color: green;
+			}
 		</style>
 
 		<!-- Code syntax highlighting -->
@@ -62,11 +72,17 @@ sortOrder: 01
 				z-index:500;">
 			</header>
 
-			<h1 class="left" style="position: absolute;
+			<h1 id="top-left" style="position: absolute;
 				background-color: rgba(33, 33, 33, 0.5);
-				padding: 20px;
 				top: 20px;
 				left: 20px;
+				z-index:500;">
+			</h1>
+
+			<h1 id="top-right" style="position: absolute;
+				background-color: rgba(33, 33, 33, 0.5);
+				top: 20px;
+				right: 20px;
 				z-index:500;">
 			</h1>
 
@@ -96,18 +112,33 @@ sortOrder: 01
 				</section>
 
 				{% assign slide = 'getting-to-know-you' %}
+				{% assign slide-title = 'Getting to Know You...' %}
+				{% assign slide-credit = 'The King and I - 20th Century Fox (1956)' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'umbrella-term' %}
+				{% assign slide-title = 'Umbrella Term' %}
+				{% assign slide-credit = 'Umbrella street in Belgrade, Serbia, Matej Duzel' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'what-does-agile-mean' %}
+				{% assign slide-title = 'What Does Agile Mean?' %}
+				{% assign slide-credit = 'Joe deSousa - https://flic.kr/p/a6gTRj' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'history-of-scrum' %}
+				{% assign slide-title = 'History of Scrum' %}
+				{% assign slide-credit = '' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'scrum-moves-on' %}
+				{% assign slide-title = 'Scrum moves on – 1995' %}
+				{% assign slide-credit = '' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				<section>
@@ -115,32 +146,59 @@ sortOrder: 01
 				</section>
 
 				{% assign slide = 'scrumguides' %}
+				{% assign slide-title = 'ScrumGuides.org' %}
+				{% assign slide-credit = '' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'three-pillars-of-scrum' %}
+				{% assign slide-title = 'Three Pillars of Scrum' %}
+				{% assign slide-credit = '' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'scrum-practices' %}
+				{% assign slide-title = 'Scrum Practices' %}
+				{% assign slide-credit = 'London Wasps v Northampton Saints, October 2010, Peter Dean' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'roles' %}
+				{% assign slide-title = 'Roles' %}
+				{% assign slide-credit = 'LEGO' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'product-owner' %}
+				{% assign slide-title = 'Product Owner' %}
+				{% assign slide-credit = '' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				<section data-background="../images/steve-jobs.jpg"></section>
 
 				{% assign slide = 'development-team' %}
+				{% assign slide-title = 'Development  Team' %}
+				{% assign slide-credit = '' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'scrummaster' %}
+				{% assign slide-title = 'Scrum Master' %}
+				{% assign slide-credit = '' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'not-the-boss' %}
+				{% assign slide-title = 'You’re not the Boss of me now!' %}
+				{% assign slide-credit = '' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'scrum-team' %}
+				{% assign slide-title = 'Scrum Team' %}
+				{% assign slide-credit = 'Glenbrook South Basketball Team (2011) https://flic.kr/p/aWf8jR' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				<section data-background="../images/what-are-you-looking-at.jpg">
@@ -148,44 +206,75 @@ sortOrder: 01
 				</section>
 
 				{% assign slide = 'events' %}
+				{% assign slide-title = 'Events' %}
+				{% assign slide-credit = 'jpellgen  - Tea Ceremony at Kenroku-en - https://flic.kr/p/FfD3W' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'discovery-phase' %}
+				{% assign slide-title = 'Discovery Phase' %}
+				{% assign slide-credit = '' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'sprint-planning' %}
+				{% assign slide-title = 'Sprint Planning' %}
+				{% assign slide-credit = 'Sarah Ross "A plan implies an architect" - https://flic.kr/p/7BLEJA' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'sprints' %}
+				{% assign slide-title = 'Sprints' %}
+				{% assign slide-credit = 'MC Escher' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'daily-standup' %}
+				{% assign slide-title = 'Daily Standup' %}
+				{% assign slide-credit = '' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'backlog-grooming' %}
+				{% assign slide-title = 'Backlog Grooming' %}
+				{% assign slide-credit = 'Anjan Chatterjee "Grooming" https://flic.kr/p/3dihZ4' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'sprint-review' %}
+				{% assign slide-title = 'Sprint Review' %}
+				{% assign slide-credit = 'Dilbert' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'sprint-retrospective' %}
+				{% assign slide-title = 'Sprint Retrospective' %}
+				{% assign slide-credit = 'Lichtenstien' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'sprint-lifecycle' %}
+				{% assign slide-title = 'Sprint Lifecycle' %}
+				{% assign slide-credit = 'Gurtej Pal Singh - http://gurtejpsingh.wordpress.com/2013/07/03/what-is-scrum/' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				<section>
 					<h1>Putting it all into practice</h1>
 				</section>
 
-				<section data-background-iframe="https://www.youtube.com/embed/szr0ezLyQHY?rel=0&vq=hd720&modestbranding=1">
-					<h1>Putting it all into practice</h1>
-				</section>
+				<section data-background-iframe="https://www.youtube.com/embed/szr0ezLyQHY?rel=0&vq=hd720&modestbranding=1"></section>
 
 				{% assign slide = 'feedback' %}
+				{% assign slide-title = 'Feedback' %}
+				{% assign slide-credit = 'Karl Horton - https://flic.kr/p/3UaCt1' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 
 				{% assign slide = 'contact' %}
+				{% assign slide-title = '' %}
+				{% assign slide-credit = '' %}
+
 				{% include presentations/slides/{{ slide }}.html %}
 			</div>
 		</div>

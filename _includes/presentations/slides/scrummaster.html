@@ -1,13 +1,5 @@
-<section data-state="header-{{ slide }} credit-{{ slide }}">
-	<style>
-		.header-{{ slide }} h1.left:after {
-			content: 'Scrum Master';
-		}
-
-		.credit-{{ slide }} footer.credit:after {
-			content: '';
-		}
-	</style>
+<section data-state="slide-title-{{ slide }} slide-credit-{{ slide }}">
+	{% include presentations/slides/slide-styles.html %}
 
 	<h2 style="margin-top:100px;">This is the most important role</h2>
 

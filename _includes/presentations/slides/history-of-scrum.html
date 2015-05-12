@@ -1,13 +1,5 @@
-<section data-state="header-{{ slide }} credit-{{ slide }}" data-background="../images/rugby.jpg" data-background-size="900px">
-	<style>
-		.header-{{ slide }} h1.left:after {
-			content: 'History of Scrum';
-		}
-
-		.credit-{{ slide }} footer.credit:after {
-			content: '';
-		}
-	</style>
+<section data-state="slide-title-{{ slide }} slide-credit-{{ slide }}" data-background="../images/rugby.jpg" data-background-size="900px">
+	{% include presentations/slides/slide-styles.html %}
 
 	<ul style="width:84%;float:left;margin:80px 0 0 -80px;">
 		<li class="fragment white-on-black">Proposed in 1986 by Hirotaka Takeuchi and Ikujiro Nonaka</li>

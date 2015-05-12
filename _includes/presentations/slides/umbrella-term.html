@@ -1,13 +1,5 @@
-<section data-state="header-{{ slide }} credit-{{ slide }}" data-background="../images/umbrella.jpg">
-	<style>
-		.header-{{ slide }} h1.left:after {
-			content: 'Umbrella Term';
-		}
-
-		.credit-{{ slide }} footer.credit:after {
-			content: 'Umbrella street in Belgrade, Serbia, Matej Duzel';
-		}
-	</style>
+<section data-state="slide-title-{{ slide }} slide-credit-{{ slide }}" data-background="../images/umbrella.jpg">
+	{% include presentations/slides/slide-styles.html %}
 
 	<div class="fragment" style="background: rgba(54, 25, 25, 0.75);padding:50px;">
 		<ul>

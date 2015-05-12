@@ -1,13 +1,5 @@
-<section data-state="header-{{ slide }} credit-{{ slide }}" data-background="../images/scrum.jpg">
-	<style>
-		.header-{{ slide }} h1.left:after {
-			content: 'Scrum Practices';
-		}
-
-		.credit-{{ slide }} footer.credit:after {
-			content: 'London Wasps v Northampton Saints, October 2010, Peter Dean';
-		}
-	</style>
+<section data-state="slide-title-{{ slide }} slide-credit-{{ slide }}" data-background="../images/scrum.jpg">
+	{% include presentations/slides/slide-styles.html %}
 
 	<ul>
 		<li>Roles</li>
