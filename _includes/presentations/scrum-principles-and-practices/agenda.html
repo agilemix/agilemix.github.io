@@ -1,10 +1,16 @@
-<section data-state="slide-title-{{ slide }} slide-credit-{{ slide }}">
+<section data-state="slide-title-{{ slide }} slide-credit-{{ slide }}" data-background="../images/agenda.jpg">
 	{% include presentations/slides/slide-styles.html %}
 
-	<ul>
-		<li class="fragment">What is Agile?</li>
-		<li class="fragment">History of Scrum</li>
-		<li class="fragment">Principles</li>
-		<li class="fragment">Practices</li>
+	<style>
+		ul>li {
+			padding:10px 30px 10px 50px;
+		}
+	</style>
+
+	<ul class="white-on-black" style="padding:10px 30px 10px 50px;">
+		<li>What is Agile?</li>
+		<li>History of Scrum</li>
+		<li>Principles</li>
+		<li>Practices</li>
 	</ul>
 </section>

@@ -1,6 +1,6 @@
 <style>
 	.slide-title-{{ slide }} h1#top-left:after {
-		padding: 20px;
+		{% if slide-title != '' %}padding: 20px;{% endif %}
 		content: '{{ slide-title }}';
 	}
 
