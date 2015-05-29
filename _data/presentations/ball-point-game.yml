@@ -22,15 +22,15 @@
   backgroundImage:  'ball-point-game-acceptance-criteria.jpg'
   credit:     ''
 
-- title:      'Vision Conversation'
-  slide:      'idea'
-  slideFilePath:  'ball-point-game/idea.html'
+- title:      'Further Conversation'
+  slide:      'conversation-1'
+  slideFilePath:  'ball-point-game/conversation-1.html'
   backgroundImage:  ''
   credit:     ''
 
-- title:      'Rules Conversation'
-  slide:      'rules'
-  slideFilePath:  'ball-point-game/rules.html'
+- title:      'Further Conversation'
+  slide:      'conversation-2'
+  slideFilePath:  'ball-point-game/conversation-2.html'
   backgroundImage:  ''
   credit:     ''
 
