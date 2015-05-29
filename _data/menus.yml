@@ -1,0 +1,20 @@
+# http://stackoverflow.com/questions/21453960/accessing-data-in-jekyll-loop-in-loop
+- menu: "presentations"
+  menuItems:
+#  - title: "Scrum: Principles and Practices"
+#    url: "presentations/scrum-principles-and-practices/"
+  - title: "Estimate or Guesstimate?"
+    url: "presentations/estimate-or-guesstimate/"
+  - title: "Ball Point Game"
+    url: "presentations/ball-point-game/"
+#  - title: "More&hellip;"
+#    url: "presentations/"
+
+#- menu: "products"
+#  menuItems:
+#  - title: "10at10to10"
+#    url: "products/10at10to10/"
+#  - title: "cfPaymill"
+#    url: "products/cfpaymill/"
+#  - title: "More&hellip;"
+#    url: "products/"

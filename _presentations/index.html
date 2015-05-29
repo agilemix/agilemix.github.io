@@ -1,5 +1,5 @@
 ---
-title: More&hellip;
+title: More Presentations
 layout: default
 sortOrder: 99
 ---
@@ -22,7 +22,15 @@ sortOrder: 99
 					<div class="row">
 						<div class="col-sm-12 inner-right-xs inner-top-sm">
 							<ul>
-								<li><a href="presentations/scrum-principles-and-practices">Scrum: Principles and Practices</a></li>
+								{% assign items = site.data.menus | where:"menu","presentations" %}
+
+								{% for item in items %}
+									{% assign menuItems = item.menuItems %}
+
+									{% for menuItem in menuItems %}
+										<li><a href="{{ menuItem.url }}">{{ menuItem.title }}</a></li>
+									{% endfor %}
+								{% endfor %}
 							</ul>
 						</div>
 					</div>

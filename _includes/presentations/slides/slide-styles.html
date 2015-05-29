@@ -1,12 +1,14 @@
+<!--
 <style>
-	.slide-title-{{ slide }} h1#top-left:after {
+	.slide-title-{{ include.slide }} h1#top-left:after {
 		{% if slide-title != '' %}padding: 20px;{% endif %}
-		content: '{{ slide-title }}';
+		content: '{{ include.slide-title }}';
 	}
 
-	.slide-credit-{{ slide }} div.credit:after {
+	.slide-credit-{{ include.slide }} div.credit:after {
 		{% if slide-credit != '' %}padding: 10px;{% endif %}
-		content: '{{ slide-credit }}';
+		content: '{{ include.slide-credit }}';
 	}
 </style>
+-->
 
