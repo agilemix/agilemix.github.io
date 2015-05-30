@@ -1,0 +1,41 @@
+---
+title: Articles
+layout: default
+sortOrder: 99
+---
+
+<main>
+	<div class="container inner">
+		<div class="row">
+			<div class="col-md-3 inner-right-md inner-bottom-sm">
+				{% include sidenav.html %}
+			</div>
+
+			<div class="col-md-9 inner-left-md border-left">
+				<section id="hero" class="inner-bottom-xs">
+					<header>
+						<h1>Articles</h1>
+					</header>
+				</section>
+
+				<section id="content" class="border-top-lg">
+					<div class="row">
+						<div class="col-sm-12 inner-right-xs inner-top-sm">
+							<ul>
+								{% assign items = site.data.menus | where:"menu","Articles" %}
+
+								{% for item in items %}
+									{% assign menuItems = item.menuItems %}
+
+									{% for menuItem in menuItems %}
+										<li><a href="{{ menuItem.url }}">{{ menuItem.title }}</a></li>
+									{% endfor %}
+								{% endfor %}
+							</ul>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</main>
