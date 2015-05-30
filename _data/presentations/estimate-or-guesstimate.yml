@@ -28,6 +28,18 @@
   backgroundImage:  'schedule-estimate.jpg'
   credit:     ''
 
+- title:      'Triple Constraints'
+  slide:      'triple-constraints'
+  slideFilePath:  ''
+  backgroundImage:  'triple-constraints.png'
+  credit:     ''
+
+- title:      'Time Resources Scope'
+  slide:      'time-cost-scope-triangle'
+  slideFilePath:  ''
+  backgroundImage:  'time-cost-scope-triangle.jpg'
+  credit:     ''
+
 - title:			'Chaos'
   slide:			'chaos-1'
   slideFilePath:	'slides/chaos-1.html'
@@ -38,7 +50,7 @@
   slide:			'chaos-2'
   slideFilePath:	'slides/chaos-2.html'
   backgroundImage:	'chaos.jpg'
-  credit:			'http://www.lostgarden.com/2006/04/managing-game-design-risk-part-i.html'
+  credit:			'Spectrum of process complexity'
 
 - title:			'Hardest Thing'
   slide:			'hardest-thing'
@@ -161,7 +173,7 @@
   credit:     'BBC Michael Fish 15th October 1987'
 
 - title:			'Forecasting'
-  slide:			''
+  slide:			'forecasting'
   slideFilePath:	''
   backgroundImage:	'kanban-wall.jpg'
   credit:			''
