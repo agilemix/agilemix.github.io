@@ -1,5 +1,5 @@
 # http://stackoverflow.com/questions/21453960/accessing-data-in-jekyll-loop-in-loop
-- menu: "presentations"
+- menu: "Presentations"
   menuItems:
 #  - title: "Scrum: Principles and Practices"
 #    url: "presentations/scrum-principles-and-practices/"
@@ -10,11 +10,11 @@
 #  - title: "More&hellip;"
 #    url: "presentations/"
 
-#- menu: "products"
-#  menuItems:
-#  - title: "10at10to10"
-#    url: "products/10at10to10/"
-#  - title: "cfPaymill"
-#    url: "products/cfpaymill/"
+- menu: "Products"
+  menuItems:
+  - title: "10at10to10"
+    url: "http://www.10at10to10.com"
+  - title: "cfPaymill"
+    url: "http://www.cfpaymill.com"
 #  - title: "More&hellip;"
 #    url: "products/"
