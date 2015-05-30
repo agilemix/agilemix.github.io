@@ -32,7 +32,7 @@
   slide:      'triple-constraints'
   slideFilePath:  ''
   backgroundImage:  'triple-constraints.png'
-  credit:     ''
+  credit:     'Euler Diagram - http://en.wikipedia.org/wiki/Project_management_triangle'
 
 - title:      'Time Resources Scope'
   slide:      'time-cost-scope-triangle'
