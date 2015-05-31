@@ -30,13 +30,13 @@
 
 - title:      'Triple Constraints'
   slide:      'triple-constraints'
-  slideFilePath:  ''
+  slideFilePath:  'slides/triple-constraints.html'
   backgroundImage:  'triple-constraints.png'
   credit:     'Euler Diagram - http://en.wikipedia.org/wiki/Project_management_triangle'
 
 - title:      'Time Resources Scope'
   slide:      'time-cost-scope-triangle'
-  slideFilePath:  ''
+  slideFilePath:  'slides/time-cost-scope-triangle.html'
   backgroundImage:  'time-cost-scope-triangle.jpg'
   credit:     ''
 
@@ -144,15 +144,21 @@
 
 - title:			'Burndown Chart'
   slide:			'burndown-chart-actual'
-  slideFilePath:	''
+  slideFilePath:	'slides/burndown-chart-actual.html'
   backgroundImage:	'burndown-chart-actual.jpg'
   credit:			'Paul Moody "flames" https://flic.kr/p/txapE'
 
-- title:			'Burndown Chart'
-  slide:			'burndown-chart-complete'
+- title:      'Burndown Chart'
+  slide:      'burndown-chart-complete'
+  slideFilePath:  ''
+  backgroundImage:  'burndown-chart-complete.jpg'
+  credit:     'Paul Moody "flames" https://flic.kr/p/txapE'
+
+- title:			'Alterntive Burndown Chart'
+  slide:			'burndown-chart-alternative'
   slideFilePath:	''
-  backgroundImage:	'burndown-chart-complete.jpg'
-  credit:			'Paul Moody "flames" https://flic.kr/p/txapE'
+  backgroundImage:	'burndown-chart-alternative.jpg'
+  credit:			'Mike Cohn "Alternative Release Burndown Chart" https://www.mountaingoatsoftware.com/agile/scrum/release-burndown/alternative'
 
 - title:			'Alternatives?'
   slide:			''
