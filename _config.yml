@@ -20,3 +20,6 @@ collections:
     output: true
   products:
     output: true
+
+gems:
+  - jekyll-sitemap
