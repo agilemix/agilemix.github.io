@@ -10,6 +10,9 @@ url: "https://agilemix.com" # the base hostname & protocol for your site
 twitter_username: agilemix
 github_username:  agilemix
 
+gems:
+  - jekyll-sitemap
+
 # Build settings
 markdown: kramdown
 
