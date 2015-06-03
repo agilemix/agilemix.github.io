@@ -154,7 +154,7 @@
   backgroundImage:  'burndown-chart-complete.jpg'
   credit:     'Paul Moody "flames" https://flic.kr/p/txapE'
 
-- title:			'Alterntive Burndown Chart'
+- title:			'Alternative Burndown Chart'
   slide:			'burndown-chart-alternative'
   slideFilePath:	''
   backgroundImage:	'burndown-chart-alternative.jpg'
