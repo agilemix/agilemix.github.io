@@ -9,12 +9,16 @@
   menuItems:
 #    - title: "Scrum: Principles and Practices"
 #      url: "presentations/scrum-principles-and-practices/"
+    - title: "Getting Stuff Done the Agile Way"
+      url: "presentations/getting-stuff-done-the-agile-way/"
     - title: "Estimate or Guesstimate?"
       url: "presentations/estimate-or-guesstimate/"
     - title: "Ball Point Game"
       url: "presentations/ball-point-game/"
-#    - title: "More&hellip;"
-#      url: "presentations/"
+    # - title: "Lego Scrum Game"
+      # url: "presentations/lego-scrum-game/"
+    # - title: "More&hellip;"
+      # url: "presentations/"
 
 - menu: "Products"
   menuItems:

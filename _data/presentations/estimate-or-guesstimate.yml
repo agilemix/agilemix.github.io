@@ -12,13 +12,13 @@
 
 - title:			'Getting to Know You...'
   slide:			'getting-to-know-you-1'
-  slideFilePath:	'slides/getting-to-know-you-1.html'
+  slideFilePath:	'slides/getting-to-know-you-estimating.html'
   backgroundImage:	'getting-to-know-you.jpg'
   credit:			'Deborah Kerr and Yul Brynner - "The King and I" - 20th Century Fox'
 
 - title:			'Getting to Know You...'
   slide:			'getting-to-know-you-2'
-  slideFilePath:	'slides/getting-to-know-you-2.html'
+  slideFilePath:	'slides/getting-to-know-you-me.html'
   backgroundImage:	'getting-to-know-you.jpg'
   credit:			'Deborah Kerr and Yul Brynner - "The King and I" - 20th Century Fox'
 
@@ -103,7 +103,7 @@
 - title:			'Not Like This!'
   slide:			'not-like-this'
   slideFilePath:	''
-  backgroundImage:	'not-like-this.png'
+  backgroundImage:	'not-like-this.jpg'
   credit:			'Dilbert'
 
 - title:      'Estimate'
@@ -121,6 +121,18 @@
 - title:      'Unknown unknowns'
   slide:      'unknown-unknowns'
   slideFilePath:  'slides/unknown-unknowns.html'
+  backgroundImage:  'donald-rumsfeld.png'
+  credit:     ''
+
+- title:      'Unknown unknowns'
+  slide:      'unknown-unknowns-2'
+  slideFilePath:  'slides/unknown-unknowns-2.html'
+  backgroundImage:  'donald-rumsfeld.png'
+  credit:     ''
+
+- title:      'Unknown unknowns'
+  slide:      'unknown-unknowns-3'
+  slideFilePath:  'slides/unknown-unknowns-3.html'
   backgroundImage:  'donald-rumsfeld.png'
   credit:     ''
 

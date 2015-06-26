@@ -1,0 +1,43 @@
+{% assign slides = include.slides %}
+
+<div class="slides">
+	{% for slide in slides %}
+		<section id="{{ slide.slide }}" data-state="slide-title-{{ slide.slide }} slide-credit-{{ slide.slide }}"{% if slide.background %} data-background="{{ slide.background }}"{% endif %} {% if slide.transition %}data-transition="{{ slide.transition }}"{% endif %}>
+			<style>
+				.slide-title-{{ slide.slide }} h1#top-left:after {
+					{% if slide.title != '' %}padding: 20px;{% endif %}
+					content: '{{ slide.title }}';
+				}
+
+				{% if slide.credit %}
+					{% assign credit = slide.credit | first %}
+
+					{% assign content = credit.author %}
+					{% assign content = content | append: ' - "' %}
+					{% assign content = content | append: credit.title %}
+					{% assign content = content | append: '" - ' %}
+					{% assign content = content | append: credit.link %}
+
+					.slide-credit-{{ slide.slide }} div.credit:after {
+						{% if slide.credit != '' %}padding: 10px;{% endif %}
+						content: '{{ content }}';
+					}
+				{% endif %}
+			</style>
+
+			{% if slide.path %}
+				{% assign slideFilePath = 'presentations/' | append: slide.path %}
+			{% else %}
+				{% assign slideFilePath = 'presentations/slides/' %}
+			{% endif %}
+
+			{% assign slideFilePath = slideFilePath | append: slide.slide | append: '.html' %}
+
+			{% if slide.include != 'no' %}
+				{% include {{ slideFilePath }} slide=slide.slide slide-title=slide.title slide-credit=slide.credit slide-background-image=slide.backgroundImage %}
+			{% endif %}
+{% comment %}
+{% endcomment %}
+		</section>
+	{% endfor %}
+</div>

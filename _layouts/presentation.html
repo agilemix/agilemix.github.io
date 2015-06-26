@@ -1,0 +1,192 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>{% if page.title %}{{ page.title }} | Agile Mix{% else %}Agile Mix{% endif %}</title>
+
+		<meta name="description" content="A game that highlights the issues with estimating">
+		<meta name="author" content="Agile Mix | agilemix.com">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<script src="/assets/countdown/countdown.js"></script>
+
+		<base href="{{ site.url }}{{ site.baseurl }}">
+
+		<link rel="stylesheet" href="assets/reveal/css/reveal.css">
+		<link rel="stylesheet" href="assets/reveal/css/theme/black.css" id="theme">
+
+		<style>
+			.reveal h1 {
+				text-transform: none;
+				font-size: 2.4em;
+			}
+
+			.reveal h2 {
+				text-transform: none;
+			}
+
+			div.top-50 {
+				margin-top: 50px;
+			}
+
+			div.top-100 {
+				margin-top: 100px;
+			}
+
+			div.top-150 {
+				margin-top: 150px;
+			}
+
+			div.top-200 {
+				margin-top: 200px;
+			}
+
+			.white-on-black {
+				background-color: rgba(33, 33, 33, 0.90);
+				color: #fff;
+			}
+
+			.percent-50 {
+				width:50%;
+				float: left;
+			}
+
+			.left-half {
+				width:49%;
+				float: left;
+			}
+
+			.right-half {
+				width:49%;
+				float: right;
+			}
+
+			.left {
+				text-align: left;
+			}
+
+			.right {
+				text-align: right;
+			}
+
+			.left-third {
+				width:33%;
+				float: left;
+			}
+
+			.middle-third {
+				width:33%;
+				float: left;
+				margin: 0 auto;
+			}
+
+			.right-third {
+				width:33%;
+				float: right;
+			}
+
+			ul.bulleted-box {
+				padding:10px 30px 10px 50px;
+			}
+
+			.reveal section img {
+				background:none;
+				border:none;
+				box-shadow:none;
+			}
+		</style>
+
+<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="assets/reveal/lib/css/zenburn.css">
+
+<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'assets/reveal/css/print/pdf.css' : 'assets/reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+<![endif]-->
+		<link rel="shortcut icon" href="/assets/images/favicon.ico">
+	</head>
+
+	<body>
+		<div class="reveal">
+			<h1 id="top-left" style="position: absolute;
+				top: 20px;
+				left: 20px;
+				background-color: rgba(33, 33, 33, 0.5);
+				z-index:500;">
+			</h1>
+
+			<h1 id="top-right" style="position: absolute;
+				top: 20px;
+				right: 20px;
+				background-color: rgba(33, 33, 33, 0.5);
+				z-index:500;">
+			</h1>
+
+			<div class="credit" style="position: absolute;
+				bottom: 20px;
+				left: 20px;
+				background-color: rgba(33, 33, 33, 0.5);
+				font-size: 20px;
+				z-index:500;">
+			</div>
+
+			{{ content }}
+		</div>
+
+		<script src="assets/reveal/lib/js/head.min.js"></script>
+		<script src="assets/reveal/js/reveal.js"></script>
+
+		<script>
+// Full list of configuration options available at:
+// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+// http://www.raymondcamden.com/2012/08/15/Push-revealjs-notes-into-the-console
+			Reveal.addEventListener('ready', addNotesToConsole);
+			Reveal.addEventListener('slidechanged', addNotesToConsole);
+
+			function addNotesToConsole(event) {
+				var notes = event.currentSlide.querySelector('aside.notes');
+
+				if (notes) {
+					console.info(notes.innerHTML.replace(/\n\s+/g,'\n'));
+				} else {
+					console.clear();
+				}
+			}
+		</script>
+
+		{% include google-analytics.html %}
+	</body>
+</html>

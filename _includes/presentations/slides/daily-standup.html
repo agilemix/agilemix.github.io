@@ -1,29 +1,32 @@
-<section data-state="slide-title-{{ include.slide }} slide-credit-{{ include.slide }}" data-background="../images/daily-standup.jpg">
-	{% include presentations/slides/slide-styles.html %}
+<style>
+	#daily-standup li {
+		font-size: 35px;
+	}
+</style>
 
-	<div class="white-on-black" style="margin-top:150px;width:49%;text-align:left;float:left;">
-		<ul>
+<div style="margin-top:100px">
+	<div class="left-half">
+		<ul class="fragment bulleted-box white-on-black">
 			<li>Every day!</li>
-			<li>Everybody!</li>
+			<li class="fragment">Everybody!</li>
 
-			<li>Whole Scrum Team
+			<li class="fragment">Whole Scrum Team
 				<ul>
-					<li>Product Owner</li>
-					<li>Development Team</li>
-					<li>ScrumMaster</li>
+					<li class="fragment">Product Owner</li>
+					<li class="fragment">Development Team</li>
+					<li class="fragment">ScrumMaster</li>
 				</ul>
 			</li>
+
+			<li class="fragment">15 minute catch up on how everyone's doing</li>
 		</ul>
 	</div>
-	<div class="white-on-black" style="margin-top:150px;width:49%;text-align:left;float:right;">
-		<ul>
-			<li>15 minute catch up on how everyone’s doing
-				<ul>
-					<li>&ldquo;What I did last time&rdquo;</li>
-					<li>&ldquo;What I’ll do this time&rdquo;</li>
-					<li>&ldquo;What’s stopping me&rdquo;</li>
-				</ul>
-			</li>
+
+	<div class="fragment right-half">
+		<ul class="bulleted-box white-on-black">
+			<li>&ldquo;What I did last time&rdquo;</li>
+			<li class="fragment">&ldquo;What I’ll do this time&rdquo;</li>
+			<li class="fragment">&ldquo;What’s stopping me&rdquo;</li>
 		</ul>
 	</div>
-</section>
+</div>
