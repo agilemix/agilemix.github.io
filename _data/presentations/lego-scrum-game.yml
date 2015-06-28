@@ -1,0 +1,68 @@
+- title:      ''
+  slide:      'home'
+  path:       'lego-scrum-game/'
+  credit:
+    - author: 'Alexey Krivitsky'
+      title:  'Scrum Simulation with LEGO'
+      link:   'http://www.lego4scrum.com/'
+
+- title:      'Lamarr-Ville'
+  slide:      'lamarr-ville'
+  path:       'lego-scrum-game/'
+  background: '/presentations/images/lamarr-ville.jpg'
+
+- title:      'Why Hedy Lamarr?'
+  slide:      'hedy-lamarr'
+  path:       'lego-scrum-game/'
+  background: '/presentations/images/Samson_and_Delilah_film_still.jpg'
+  credit:
+    - author: 'Paramount'
+      title:  'Samson and Delilah'
+      link:   'https://commons.wikimedia.org/wiki/File:Samson_and_Delilah_film_still.JPG#/media/File:Samson_and_Delilah_film_still.JPG'
+
+- title:      'Exercise in Agile and Scrum'
+  slide:      'who-is-who'
+  background: 'white'
+  path:       'lego-scrum-game/'
+
+- title:      'Exercise in Agile and Scrum'
+  slide:      'events'
+  path:       'lego-scrum-game/'
+  background: '/presentations/images/tea-ceremony.jpg'
+
+- title:      'Exercise in Agile and Scrum'
+  slide:      'artefacts'
+  path:       'lego-scrum-game/'
+  background: '/presentations/images/artefacts.jpg'
+
+- title:      'Finished!'
+  slide:      'finished'
+  include:    'no'
+  background: '/presentations/images/lego-city.jpg'
+  credit:
+    - author: 'nsccs'
+      title:  'lego'
+      link:   'https://flic.kr/p/dbAxcj'
+
+- title:      'Sprint Planning'
+  slide:      'sprint-planning'
+  path:       'lego-scrum-game/'
+
+- title:      'Sprint'
+  slide:      'sprint'
+  path:       'lego-scrum-game/'
+
+- title:      'Sprint Review'
+  slide:      'sprint-review'
+  path:       'lego-scrum-game/'
+
+- title:      'Sprint Retrospective'
+  slide:      'sprint-retrospective'
+  include:    'no'
+  background: '/presentations/images/sprint-retrospective.jpg'
+
+- title:      'Feedback'
+  slide:      'feedback'
+
+- title:      ''
+  slide:      'contact'

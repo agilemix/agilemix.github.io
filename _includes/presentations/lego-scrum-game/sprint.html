@@ -1,0 +1,25 @@
+<h1 id="start-sprint" style="margin-top:250px;">Start 7 minute countdown</h1>
+<div id="countdown-sprint" style="margin-top:90px;height:600px;"></div>
+
+<script>
+// http://www.gieson.com/Library/projects/utilities/countdown/
+	var sprintPlanningButton = document.getElementById("start-sprint");
+
+	sprintPlanningButton.onclick = function() {
+		setTimeout(function() {
+			var countdownTheme = new Audio('/presentations/images/countdown-theme.mp3');
+
+			countdownTheme.play();
+		}, 30000);
+
+		sprintPlanningButton.style.display = 'none';
+
+		var countdownClock = new Countdown({
+			time: 420,
+			width:1000,
+			height:600,
+			rangeHi:"minute",
+			target:"countdown-sprint"
+		});
+	};
+</script>
