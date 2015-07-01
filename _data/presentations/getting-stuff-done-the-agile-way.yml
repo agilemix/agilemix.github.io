@@ -184,6 +184,11 @@
       title:  'Egyptian Artefacts at the British Museum'
       link:   'https://flic.kr/p/6fSNzy'
 
+- title:      'Scrum Roles'
+  slide:      'scrum-roles-no-sound'
+  background: '/presentations/images/lego-team.jpg'
+  include:    'no'
+
 - title:      'Product Owner'
   slide:      'product-owner-role'
   background: '#fff'
@@ -221,6 +226,15 @@
     - author: 'Sarah Williams '
       title:  'What are you looking at?'
       link:   'http://www.fwaphoto.com/#/2010-09-13/'
+
+- title:      'Events'
+  slide:      'events-2'
+  include:    'no'
+  background: '/presentations/images/tea-ceremony.jpg'
+  credit:
+    - author: 'jpellgen'
+      title:  'Tea Ceremony at Kenroku-en'
+      link:   'https://flic.kr/p/FfD3W'
 
 - title:      'Scrum Lifecycle'
   slide:      'scrum-lifecycle'
