@@ -2,10 +2,6 @@
   slide:      'home'
   path:       'getting-stuff-done-the-agile-way/'
   background: '/presentations/images/getting-stuff-done-the-agile-way.jpg'
-  # include:    'no'
-  # background: '/presentations/images/template-1280x1024.png'
-  # background: '/presentations/images/template-1280x768.png'
-  # background: '/presentations/images/template-1230x768.png'
 
 - title:      'Why are we here?'
   slide:      'question-everything'
@@ -333,6 +329,14 @@
       title:  'Making the Product Backlog DEEP'
       link:   'http://www.romanpichler.com/blog/making-the-product-backlog-deep/'
 
+- title:      'Definition of "Done"'
+  slide:      'definition-of-done-technical'
+  background: '/presentations/images/to-do.jpg'
+  credit:
+    - author: 'Amit Gupta'
+      title:  'To Do public art in Dumbo'
+      link:   'https://flic.kr/p/2AcAfi'
+
 - title:      'Estimating'
   slide:      'estimating'
   background: '/presentations/images/project-budget.jpg'
@@ -444,14 +448,6 @@
 - title:      'Daily Standup'
   slide:      'daily-standup'
   background: '/presentations/images/daily-standup.jpg'
-
-- title:      'Definition of "Done"'
-  slide:      'definition-of-done-technical'
-  background: '/presentations/images/to-do.jpg'
-  credit:
-    - author: 'Amit Gupta'
-      title:  'To Do public art in Dumbo'
-      link:   'https://flic.kr/p/2AcAfi'
 
 - title:      'Burndown Chart'
   slide:      'burndown-chart-estimate'
