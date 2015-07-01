@@ -564,6 +564,7 @@
 
 - title:      ''
   slide:      'contact'
+  background: 'white'
 
 #- title:      ''
 #  slide:      'whats-next'
