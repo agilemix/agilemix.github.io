@@ -549,7 +549,13 @@
   slide:      'feedback'
 
 - title:      ''
+  slide:      'whats-next'
+  background: '/presentations/images/whats-next.jpg'
+
+- title:      ''
   slide:      'contact'
+  background: 'white'
+
 
 #- title:      ''
 #  slide:      'whats-next'
