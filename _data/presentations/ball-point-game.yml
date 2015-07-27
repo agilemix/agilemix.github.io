@@ -58,8 +58,8 @@
   backgroundImage:  ''
   credit:     ''
 
-- title:      ''
-  slide:      'contact'
-  slideFilePath:  'slides/contact.html'
-  backgroundImage:  ''
-  credit:     ''
+# - title:      ''
+#   slide:      'contact'
+#   slideFilePath:  'slides/contact.html'
+#   backgroundImage:  ''
+#   credit:     ''
