@@ -263,6 +263,19 @@
   background: '/presentations/images/steve-jobs.jpg'
   include:    'no'
 
+- title:      'Scrum Lifecycle'
+  slide:      'scrum-lifecycle-product-backlog'
+  background: '/presentations/images/scrum-lifecycle-product-backlog.jpg'
+  include:    'no'
+  credit:
+    - author: 'Gurtej Pal Singh'
+      title:  'What is SCRUM'
+      link:   'http://gurtejpsingh.wordpress.com/2013/07/03/what-is-scrum/'
+
+- title:      'Planning has value'
+  slide:      'planning-value'
+  background: '/presentations/images/eisenhower.jpg'
+
 - title:      'User Story Mapping'
   slide:      'user-story-mapping'
   include:    'no'
@@ -271,10 +284,6 @@
     - author: 'Steve Rogalsky'
       title:  'How to create a User Story Map'
       link:   'http://winnipegagilist.blogspot.co.uk/2012/03/how-to-create-user-story-map.html'
-
-- title:      'Planning has value'
-  slide:      'planning-value'
-  background: '/presentations/images/eisenhower.jpg'
 
 #- title:      'User Story Map'
 #  slide:      'user-story-map'
@@ -309,6 +318,10 @@
       title:  'From Cash To Digital'
       link:   'https://flic.kr/p/8rfCL3'
 
+# - title:      'Acceptance Criteria'
+#   slide:      'acceptance-criteria'
+
+
 - title:      'User Stories - INVEST'
   slide:      'invest'
   credit:
@@ -324,15 +337,6 @@
   slide:      'not-like-this'
   background: '/presentations/images/not-like-this.jpg'
   include:    'no'
-
-- title:      'Scrum Lifecycle'
-  slide:      'scrum-lifecycle-product-backlog'
-  background: '/presentations/images/scrum-lifecycle-product-backlog.jpg'
-  include:    'no'
-  credit:
-    - author: 'Gurtej Pal Singh'
-      title:  'What is SCRUM'
-      link:   'http://gurtejpsingh.wordpress.com/2013/07/03/what-is-scrum/'
 
 - title:      'Product Backlog Items'
   slide:      'product-backlog-items'
@@ -563,8 +567,13 @@
   slide:      'feedback'
 
 - title:      ''
+  slide:      'whats-next'
+  background: '/presentations/images/whats-next.jpg'
+
+- title:      ''
   slide:      'contact'
   background: 'white'
+
 
 #- title:      ''
 #  slide:      'whats-next'
