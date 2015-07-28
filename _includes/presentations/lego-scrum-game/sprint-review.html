@@ -3,16 +3,16 @@
 
 <script>
 // http://www.gieson.com/Library/projects/utilities/countdown/
-	var sprintPlanningButton = document.getElementById("start-sprint-review");
+	var sprintReviewButton = document.getElementById("start-sprint-review");
 
-	sprintPlanningButton.onclick = function() {
+	sprintReviewButton.onclick = function() {
 		setTimeout(function() {
 			var countdownTheme = new Audio('/presentations/images/countdown-theme.mp3');
 
 			countdownTheme.play();
 		}, 30000);
 
-		sprintPlanningButton.style.display = 'none';
+		sprintReviewButton.style.display = 'none';
 
 		var countdownClock = new Countdown({
 			time: 300,
