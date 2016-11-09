@@ -35,7 +35,7 @@ sitemap:
 
 									{% for menuItem in menuItems %}
 										{% if menuItem.title != 'More&hellip;' %}
-											<li><a href="{{ menuItem.url }}">{{ menuItem.title }}</a></li>
+											<li><a href="{{ menuItem.url }}" target="_blank">{{ menuItem.title }}</a></li>
 										{% endif %}
 									{% endfor %}
 								{% endfor %}

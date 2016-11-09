@@ -77,7 +77,7 @@
   background: '/presentations/images/open-pickle-jar.jpg'
   credit:
     - author: 'Ryan McGuire'
-      title:  ''
+      title:  'Open Pickle Jar'
       link:   'http://www.gratisography.com/pictures/178_1.jpg'
 
 - title:      'Planning has Value'
@@ -239,7 +239,7 @@
       link:   ''
 
 - title:      'Forecasting'
-  slide:      'forecasting'
+  slide:      'forecasting-2'
   path:       'slides/'
   background: '/presentations/images/kanban-wall.jpg'
 
@@ -258,7 +258,7 @@
   background: ''
   credit:
     - author: 'Karl Horton'
-      title:  ''
+      title:  'Feedbag'
       link:   'https://flic.kr/p/3UaCt1'
 
 - title:      ''

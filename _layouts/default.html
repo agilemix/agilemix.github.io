@@ -63,7 +63,7 @@
 
 										<ul class="dropdown-menu">
 											{% for subcategory in entry.menuItems %}
-												<li><a href="{{ subcategory.url }}">{{ subcategory.title }}</a></li>
+												<li><a href="{{ subcategory.url }}" {% if entry.menu == "Presentations" and subcategory.title != "More..." %}target="_blank"{% endif %}>{{ subcategory.title }}</a></li>
 											{% endfor %}
 										</ul>
 									</li>

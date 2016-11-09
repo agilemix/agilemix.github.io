@@ -10,13 +10,24 @@
 				}
 
 				{% if slide.credit %}
+					{% assign content = "" %}
+
 					{% assign credit = slide.credit | first %}
 
-					{% assign content = credit.author %}
-					{% assign content = content | append: ' - "' %}
-					{% assign content = content | append: credit.title %}
-					{% assign content = content | append: '" - ' %}
-					{% assign content = content | append: credit.link %}
+					{% if credit.author != "" %}
+						{% assign content = credit.author %}
+						{% assign content = content | append: ' - ' %}
+					{% endif %}
+
+					{% if credit.title != "" %}
+						{% assign content = content | append: '"' | append: credit.title | append: '"' %}
+					{% endif %}
+
+					{% if credit.link != "" %}
+						{% assign content = content | append: ' - ' %}
+						{% assign content = content | append: credit.link %}
+					{% endif %}
+
 
 					.slide-credit-{{ slide.slide }} div.credit:after {
 						{% if slide.credit != '' %}padding: 10px;{% endif %}
