@@ -1,0 +1,557 @@
+- title:      ''
+  slide:      'home'
+  path:       'getting-stuff-done-the-agile-way-cfcamp-oct-2017/'
+  background: '/presentations/images/getting-stuff-done-the-agile-way.jpg'
+
+- title:      'Why are we here?'
+  slide:      'question-everything'
+  background: '/presentations/images/question-everything.jpg'
+  credit:
+    - author: 'Duncan Hill'
+      title:  'Question Everything'
+      link:   'https://flic.kr/p/iVLZt'
+
+- title:      'Getting to Know You'
+  slide:      'getting-to-know-you'
+  path:       'getting-stuff-done-the-agile-way-cfcamp-oct-2017/'
+  background: '/presentations/images/getting-to-know-you.jpg'
+  credit:
+    - author: 'Deborah Kerr and Yul Brynner'
+      title:  'The King and I'
+      link:   '20th Century Fox'
+
+- title:      'Getting to Know You'
+  slide:      'getting-to-know-you-me'
+  background: '/presentations/images/getting-to-know-you.jpg'
+  credit:
+    - author: 'Deborah Kerr and Yul Brynner'
+      title:  'The King and I'
+      link:   '20th Century Fox'
+
+- title:      'History of Project Management'
+  slide:      'santiago-calatrava'
+  background: '/presentations/images/oriente-station.jpg'
+  credit:
+    - author: 'Santiago Calatrava'
+      title:  'Oriente Station'
+      link:   'Lisbon 1998'
+
+- title:      ''
+  slide:      'waterfall'
+  background: '/presentations/images/waterfall.jpg'
+
+- title:      'Agile Manifesto: Values'
+  slide:      'agile-manifesto-values'
+  background: '/presentations/images/manifesto-meeting.jpg'
+  credit:
+    - author: 'Agile Alliance'
+      title:  'The Lodge at Snowbird ski resort in the Wasatch mountains of Utah, Feb 2001'
+      link:   'http://agilemanifesto.org/'
+
+- title:      'Agile Manifesto: Principles'
+  slide:      'agile-manifesto-principes-1'
+  background: '/presentations/images/manifesto-meeting.jpg'
+  credit:
+    - author: 'Agile Alliance'
+      title:  'The Lodge at Snowbird ski resort in the Wasatch mountains of Utah, Feb 2001'
+      link:   'http://agilemanifesto.org/principles.html'
+
+- title:      'Agile Manifesto: Principles'
+  slide:      'agile-manifesto-principes-2'
+  background: '/presentations/images/manifesto-meeting.jpg'
+  credit:
+    - author: 'Agile Alliance'
+      title:  'The Lodge at Snowbird ski resort in the Wasatch mountains of Utah, Feb 2001'
+      link:   'http://agilemanifesto.org/'
+
+- title:      'Communications'
+  slide:      'hamlet'
+  transition: 'none'
+
+- title:      'Communications'
+  slide:      'hamlet-2'
+  transition: 'none'
+
+- title:      'And That is Agile...'
+  slide:      'thats-agile'
+  background: '/presentations/images/dilbert-agile-programming.jpg'
+
+- title:      'So Why Agile'
+  slide:      'so-why-agile'
+  background: '/presentations/images/chicken-road.jpg'
+  credit:
+    - author: 'Patrick Wilken'
+      title:  'why?'
+      link:   'https://flic.kr/p/ahu65W'
+
+- title:      'What Does Agile Mean?'
+  slide:      'what-does-agile-mean'
+  background: '/presentations/images/thinker.jpg'
+  credit:
+    - author: 'Joe deSousa'
+      title:  'The Thinker'
+      link:   'https://flic.kr/p/ahu65W'
+
+- title:      'Agile is not about software'
+  slide:      'agile-is-not-about-software-1'
+  background: '/presentations/images/agile-is-not-about-software-1.jpg'
+
+- title:      ''
+  slide:      'agile-is-not-about-software-2'
+  include:    'no'
+  background: '/presentations/images/agile-is-not-about-software-2.jpg'
+
+- title:      ''
+  slide:      'agile-is-not-about-software-3'
+  include:    'no'
+  background: '/presentations/images/agile-is-not-about-software-3.jpg'
+
+- title:      ''
+  slide:      'agile-is-not-about-software-4'
+  include:    'no'
+  background: '/presentations/images/agile-is-not-about-software-4.jpg'
+
+- title:      ''
+  slide:      'agile-is-not-about-software-5'
+  include:    'no'
+  background: '/presentations/images/agile-is-not-about-software-5.jpg'
+
+- title:      ''
+  slide:      'agile-is-not-about-software-6'
+  include:    'no'
+  background: '/presentations/images/agile-is-not-about-software-6.jpg'
+
+#- title:      'Triple Constraints'
+#  slide:      'triple-constraints'
+#  background: '/presentations/images/triple-constraints.png'
+#  include:    'no'
+#  credit:
+#    - author: 'wikipedia'
+#      title:  'Euler Diagram'
+#      link:   'http://en.wikipedia.org/wiki/Project_management_triangle'
+
+#- title:      'Time, Resources, Scope'
+#  slide:      'waterfall-vs-agile'
+#  background: '/presentations/images/time-cost-scope-triangle.jpg'
+#  include:    'no'
+
+- title:      'Umbrella Term'
+  slide:      'umbrella-term'
+  background: '/presentations/images/umbrella.jpg'
+  credit:
+    - author: 'Matej Duzel'
+      title:  'Umbrella HQ'
+      link:   'https://flic.kr/p/nyDufX'
+
+- title:      'What is Scrum?'
+  slide:      'what-is-scrum'
+  background: '/presentations/images/rugby.jpg'
+
+- title:      'What is Scrum?'
+  slide:      'what-is-scrum-2'
+  transition: 'none'
+  background: '/presentations/images/rugby-2.jpg'
+
+- title:      'Scrum is Born'
+  slide:      'scrum-moves-on'
+
+- title:      'Three Pillars of Scrum'
+  slide:      'scrum-pillars'
+  background: '/presentations/images/pillars.jpg'
+
+- title:      'Scrum'
+  slide:      'scrum'
+  background: '/presentations/images/scrum.jpg'
+
+- title:      'Scrum Team Roles'
+  slide:      'scrum-roles'
+  background: '/presentations/images/lego-team.jpg'
+  transition: 'none'
+
+- title:      'Scrum Team Roles'
+  slide:      'scrum-roles-2'
+  background: '/presentations/images/lego-team.jpg'
+  transition: 'none'
+
+- title:      'Events'
+  slide:      'events'
+  background: '/presentations/images/tea-ceremony.jpg'
+  credit:
+    - author: 'jpellgen'
+      title:  'Tea Ceremony at Kenroku-en'
+      link:   'https://flic.kr/p/FfD3W'
+
+- title:      'Artefacts'
+  slide:      'artefacts'
+  background: '/presentations/images/artefacts.jpg'
+  credit:
+    - author: 'David Woo'
+      title:  'Egyptian Artefacts at the British Museum'
+      link:   'https://flic.kr/p/6fSNzy'
+
+- title:      'Scrum Team Roles'
+  slide:      'scrum-roles-no-sound'
+  background: '/presentations/images/lego-team.jpg'
+
+- title:      'Product Owner'
+  slide:      'product-owner-role'
+  background: '#fff'
+
+- title:      'Development Team'
+  slide:      'development-team-role'
+  background: '#fff'
+
+- title:      'Scrum Master'
+  slide:      'scrum-master-role'
+  background: '#fff'
+
+#- title:      'You’re not the Boss of me now!'
+#  slide:      'not-the-boss'
+#  background: '/presentations/images/not-the-boss.jpg'
+#  include:    'no'
+#  credit:
+#    - author: 'Malcolm in the Middle'
+#      title:  'They Might Be Giants'
+#      link:   'Fox Broadcasting Company'
+
+- title:      'Scrum Team'
+  slide:      'scrum-team'
+  background: '/presentations/images/scrum-team.jpg'
+  credit:
+    - author: 'Glenbrook South '
+      title:  'Girls Basketball Team'
+      link:   'https://flic.kr/p/aWf8jR'
+
+- title:      'So What are You?'
+  slide:      'what-are-you'
+  background: '/presentations/images/what-are-you-looking-at.jpg'
+  include:    'no'
+  credit:
+    - author: 'Sarah Williams'
+      title:  'What are you looking at?'
+      link:   'http://www.fwaphoto.com/#/2010-09-13/'
+
+- title:      'Events'
+  slide:      'events-2'
+  background: '/presentations/images/tea-ceremony.jpg'
+  credit:
+    - author: 'jpellgen'
+      title:  'Tea Ceremony at Kenroku-en'
+      link:   'https://flic.kr/p/FfD3W'
+
+- title:      'Discovery Phase'
+  slide:      'discovery-phase'
+  background: '/presentations/images/discovery.jpg'
+
+- title:      'Scrum Lifecycle'
+  slide:      'scrum-lifecycle-vision'
+  background: '/presentations/images/scrum-lifecycle-vision.jpg'
+  include:    'no'
+  credit:
+    - author: 'Gurtej Pal Singh'
+      title:  'What is SCRUM'
+      link:   'http://gurtejpsingh.wordpress.com/2013/07/03/what-is-scrum/'
+
+- title:      ''
+  slide:      'steve-jobs'
+  background: '/presentations/images/steve-jobs.jpg'
+  include:    'no'
+
+- title:      'Scrum Lifecycle'
+  slide:      'scrum-lifecycle-product-backlog'
+  background: '/presentations/images/scrum-lifecycle-product-backlog.jpg'
+  include:    'no'
+  credit:
+    - author: 'Gurtej Pal Singh'
+      title:  'What is SCRUM'
+      link:   'http://gurtejpsingh.wordpress.com/2013/07/03/what-is-scrum/'
+
+- title:      'User Story'
+  slide:      'user-stories'
+  background: '/presentations/images/classroom.jpg'
+  credit:
+    - author: 'North Carolina Digital Heritage Center'
+      title:  'Story Time, Wilson County Public Library, 1947'
+      link:   'http://library.digitalnc.org/cdm/ref/collection/ncimages/id/814'
+
+- title:      '"As a..." – Persona'
+  slide:      'user-story-persona'
+  background: '/presentations/images/personas.jpg'
+
+- title:      '"I want to..." – Goal'
+  slide:      'user-story-goal'
+  background: '/presentations/images/goal.jpg'
+  credit:
+    - author: 'Wally Gobetz'
+      title:  'No Goal Is Too High If We Climb With Care and Confidence'
+      link:   'https://flic.kr/p/eKWcPq'
+
+- title:      '"So that..." – Benefit'
+  slide:      'user-story-benefit'
+  background: '/presentations/images/cash-digital.jpg'
+  credit:
+    - author: 'FamZoo Staff'
+      title:  'From Cash To Digital'
+      link:   'https://flic.kr/p/8rfCL3'
+
+# - title:      'Acceptance Criteria'
+#   slide:      'acceptance-criteria'
+
+
+- title:      'User Stories - INVEST'
+  slide:      'invest'
+  credit:
+    - author: 'Bill Wake'
+      title:  'INVEST in good stories, and smart tasks'
+      link:   'http://xp123.com/articles/invest-in-good-stories-and-smart-tasks/'
+
+- title:      'Who Writes User Stories?'
+  slide:      'user-story-writer'
+  background: '#fff'
+
+- title:      'Not Like This!'
+  slide:      'not-like-this'
+  background: '/presentations/images/not-like-this.jpg'
+  include:    'no'
+
+- title:      'Product Backlog Items'
+  slide:      'product-backlog-items'
+  background: '/presentations/images/product-backlog-items.jpg'
+  include:    'no'
+  credit:
+    - author: 'Roman Pichler'
+      title:  'Making the Product Backlog DEEP'
+      link:   'http://www.romanpichler.com/blog/making-the-product-backlog-deep/'
+
+- title:      'User Story Mapping'
+  slide:      'user-story-mapping'
+  include:    'no'
+  background: '/presentations/images/user-story-map-complete.jpg'
+  credit:
+    - author: 'Steve Rogalsky'
+      title:  'How to create a User Story Map'
+      link:   'http://winnipegagilist.blogspot.co.uk/2012/03/how-to-create-user-story-map.html'
+
+- title:      'Estimating'
+  slide:      'estimating'
+  background: '/presentations/images/project-budget.jpg'
+  include:    'no'
+
+- title:      'An Estimate'
+  slide:      'estimate'
+
+- title:      'No Estimates!!!!'
+  slide:      'no-estimates'
+  background: '/presentations/images/scared.jpg'
+  credit:
+    - author: 'Jeremy Brooks'
+      title:  'Shock Shock Horror Horror'
+      link:   'https://flic.kr/p/4mmgEr'
+
+- title:      'Unknown Unknowns'
+  slide:      'unknown-unknowns'
+  background: '/presentations/images/donald-rumsfeld.jpg'
+
+- title:      'Unknown Unknowns'
+  slide:      'unknown-unknowns-2'
+  background: '/presentations/images/donald-rumsfeld.jpg'
+
+- title:      'Unknown Unknowns'
+  slide:      'unknown-unknowns-3'
+  background: '/presentations/images/donald-rumsfeld.jpg'
+
+- title:      'Story Sizing'
+  slide:      'story-sizing'
+  background: '/presentations/images/poker.jpg'
+  credit:
+    - author: 'maorix'
+      title:  'Poker'
+      link:   'https://flic.kr/p/5wDp8h'
+
+- title:      'Definition of "Done"'
+  slide:      'definition-of-done-technical'
+  background: '/presentations/images/to-do.jpg'
+  credit:
+    - author: 'Amit Gupta'
+      title:  'To Do public art in Dumbo'
+      link:   'https://flic.kr/p/2AcAfi'
+
+- title:      'Burndown Chart'
+  slide:      'burndown-chart'
+  include:    'no'
+  background: '/presentations/images/burndown-chart-actual.jpg'
+
+#- title:      'Burndown Chart'
+#  slide:      'burndown-chart-alternative'
+#  include:    'no'
+#  background: '/presentations/images/burndown-chart-alternative.jpg'
+
+- title:      'Scrum Lifecycle'
+  slide:      'scrum-lifecycle-sprint-planning'
+  background: '/presentations/images/scrum-lifecycle-sprint-planning.jpg'
+  include:    'no'
+  credit:
+    - author: 'Gurtej Pal Singh'
+      title:  'What is SCRUM'
+      link:   'http://gurtejpsingh.wordpress.com/2013/07/03/what-is-scrum/'
+
+- title:      'Planning has value'
+  slide:      'planning-value'
+  background: '/presentations/images/eisenhower.jpg'
+
+- title:      'Sprint Backlog Planning'
+  slide:      'sprint-backlog-planning'
+  background: '/presentations/images/planning.jpg'
+  credit:
+    - author: 'Sarah Ross'
+      title:  'A plan implies an architect'
+      link:   'https://flic.kr/p/7BLEJA'
+
+- title:      'Scrum Lifecycle'
+  slide:      'scrum-lifecycle-sprint'
+  background: '/presentations/images/scrum-lifecycle-sprint.jpg'
+  include:    'no'
+  credit:
+    - author: 'Gurtej Pal Singh'
+      title:  'What is SCRUM'
+      link:   'http://gurtejpsingh.wordpress.com/2013/07/03/what-is-scrum/'
+
+- title:      'Sprints'
+  slide:      'sprints'
+  background: '/presentations/images/escher.jpg'
+
+- title:      'ACTUALLY DO THE WORK!'
+  slide:      'do-the-work'
+  background: '/presentations/images/men-at-work.jpg'
+  credit:
+    - author: 'JD Hancock'
+      title:  'Berry Hard Work'
+      link:   'https://flic.kr/p/edgbX5'
+
+- title:      "Why Sprint?"
+  slide:      'idea-0'
+  background: ''
+  transition: 'fade-out'
+
+- title:      "Why Sprint?"
+  slide:      'idea-1'
+  background: '/presentations/images/idea-1.jpg'
+  transition: 'fade-out'
+
+- title:      "Why Sprint?"
+  slide:      'idea-2'
+  background: '/presentations/images/idea-2.jpg'
+  transition: 'fade-in fade-out'
+
+- title:      "Why Sprint?"
+  slide:      'idea-3'
+  background: '/presentations/images/idea-3.jpg'
+  transition: 'fade-in fade-out'
+
+- title:      'Scrum Lifecycle'
+  slide:      'scrum-lifecycle-standup'
+  background: '/presentations/images/scrum-lifecycle-standup.jpg'
+  include:    'no'
+  credit:
+    - author: 'Gurtej Pal Singh'
+      title:  'What is SCRUM'
+      link:   'http://gurtejpsingh.wordpress.com/2013/07/03/what-is-scrum/'
+
+- title:      'Daily Standup'
+  slide:      'daily-standup'
+  background: '/presentations/images/daily-standup.jpg'
+
+- title:      'Burndown Chart'
+  slide:      'burndown-chart-estimate'
+  include:    'no'
+  background: '/presentations/images/burndown-chart-estimate.jpg'
+
+- title:      'Burndown Chart'
+  slide:      'burndown-chart-complete'
+  include:    'no'
+  background: '/presentations/images/burndown-chart-complete.jpg'
+
+- title:      'Scrum Lifecycle'
+  slide:      'scrum-lifecycle-grooming'
+  background: '/presentations/images/scrum-lifecycle-grooming.jpg'
+  include:    'no'
+  credit:
+    - author: 'Gurtej Pal Singh'
+      title:  'What is SCRUM'
+      link:   'http://gurtejpsingh.wordpress.com/2013/07/03/what-is-scrum/'
+
+- title:      'Backlog Grooming'
+  slide:      'backlog-grooming'
+  background: '/presentations/images/grooming.jpg'
+  credit:
+    - author: 'Anjan Chatterjee'
+      title:  'grooming'
+      link:   'https://flic.kr/p/3dihZ4'
+
+- title:      'Scrum Lifecycle'
+  slide:      'scrum-lifecycle-review'
+  background: '/presentations/images/scrum-lifecycle-review.jpg'
+  include:    'no'
+  credit:
+    - author: 'Gurtej Pal Singh'
+      title:  'What is SCRUM'
+      link:   'http://gurtejpsingh.wordpress.com/2013/07/03/what-is-scrum/'
+
+- title:      'Sprint Review'
+  slide:      'sprint-review'
+  background: '/presentations/images/sprint-review.jpg'
+
+- title:      'Scrum Lifecycle'
+  slide:      'scrum-lifecycle-retrospective'
+  background: '/presentations/images/scrum-lifecycle-retrospective.jpg'
+  include:    'no'
+  credit:
+    - author: 'Gurtej Pal Singh'
+      title:  'What is SCRUM'
+      link:   'http://gurtejpsingh.wordpress.com/2013/07/03/what-is-scrum/'
+
+- title:      ''
+  slide:      'sprint-retrospective'
+  background: '/presentations/images/sprint-retrospective.jpg'
+
+- title:      ''
+  slide:      'deliver-the-goods'
+  background: '/presentations/images/we-deliver.jpg'
+  include:    'no'
+
+- title:      'Sprint Calendar'
+  slide:      'sprint-calendar'
+  background: '/presentations/images/calendar.jpg'
+  include:    'no'
+  credit:
+    - author: 'Andreanna Moya'
+      title:  'Calendar'
+      link:   'https://flic.kr/p/5jLKHc'
+
+- title:      'Scrum Lifecycle'
+  slide:      'scrum-lifecycle-2'
+  background: '/presentations/images/scrum-lifecycle-retrospective.jpg'
+  include:    'no'
+  credit:
+    - author: 'Gurtej Pal Singh'
+      title:  'What is SCRUM'
+      link:   'http://gurtejpsingh.wordpress.com/2013/07/03/what-is-scrum/'
+
+- title:      'So What is Agile and Scrum?'
+  slide:      'agile-sprint-steps'
+
+#- title:      'Build Less, Ship Early, Iterate After'
+#  slide:      'build-less'
+#  background: '/presentations/images/build-less-background.jpg'
+#  include:    'no'
+
+- title:      'Putting it all into practice'
+  slide:      'nordstrom-innovation-lab'
+  background: '/presentations/images/sunglasses.jpg'
+
+- title:      'Feedback'
+  slide:      'feedback'
+
+- title:      ''
+  slide:      'contact'
+  background: 'white'

@@ -9,8 +9,10 @@
   menuItems:
 #    - title: "Scrum: Principles and Practices"
 #      url: "presentations/scrum-principles-and-practices/"
-    - title: "Getting Stuff Done the Agile Way"
-      url: "presentations/getting-stuff-done-the-agile-way/"
+#    - title: "Getting Stuff Done the Agile Way"
+#      url: "presentations/getting-stuff-done-the-agile-way/"
+    - title: "Getting Stuff Done the Agile Way - CFCamp Oct 2017"
+      url: "presentations/getting-stuff-done-the-agile-way-cfcamp-oct-2017/"
     - title: "Estimate or Guesstimate?"
       url: "presentations/estimate-or-guesstimate/"
     - title: "Ball Point Game"
